@@ -1,9 +1,9 @@
 
-def  separa_letras(string ):
+def separa_letras(string):
     # Comprobamos si el parámetro no es un string
     if not isinstance(string, str):
         return -100, None, None
-    
+
     # Comprobamos si el string está vacío
     if not string.strip():
         return -300, None, None
